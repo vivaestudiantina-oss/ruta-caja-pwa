@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { supabase } from '@/lib/supabaseClient';
+import { supabase } from '../lib/supabaseClient';
 import { CalendarDays, CheckCircle2, Clock3, History, ListChecks, LogOut, Plus, RefreshCw, WalletCards } from 'lucide-react';
 
 type Tipo = 'Ingreso' | 'Gasto' | 'Reserva';
